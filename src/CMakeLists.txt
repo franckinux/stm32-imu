@@ -37,7 +37,7 @@ target_sources(${MY_TARGET} PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/cocoos/src/os_task.c
 )
 
-set(STM_HAL_DEVICE "STM32F407xx")
+set(STM_HAL_DEVICE "STM32F401xC")
 set(STM_USE_HAL_DRIVER true)
 set(STM_USE_FULL_LL_DRIVER true)
 set(STM_USE_FULL_ASSERT false)

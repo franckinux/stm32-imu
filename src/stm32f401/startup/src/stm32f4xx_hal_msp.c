@@ -21,7 +21,9 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 /* USER CODE BEGIN Includes */
-
+#ifndef GPIO_AF9_I2C2
+#define GPIO_AF9_I2C2          ((uint8_t)0x09)  /* I2C2 Alternate Function mapping */
+#endif
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
