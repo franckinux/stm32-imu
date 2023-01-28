@@ -1,0 +1,7 @@
+*~
+.ccls-cache
+build
+out
+stm32cubemx
+*.pdf
+.venv
